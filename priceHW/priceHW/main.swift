@@ -1,9 +1,10 @@
 //
 //  main.swift
-//  HW_WEEK01_DAY04_Admission_Price
+//  priceHW
 //
 //  Created by TAGHREED on 08/03/1443 AH.
 //
+
 
 import Foundation
 
@@ -17,7 +18,7 @@ while age != 0 {
     else if age >= 3 && age <= 12 {
         total += 14
     }
-    else if age == 65 {
+    else if age >= 65 {
         total += 18
     }else {
         total += 23

@@ -1,10 +1,17 @@
 //
 //  utils.swift
-//  HW_WEEK01_DAY04_Admission_Price
+//  priceHW
 //
 //  Created by TAGHREED on 08/03/1443 AH.
 //
 
+import Foundation
+//
+//  utils.swift
+//  demo_T1000
+//
+//  Created by user on 9/26/21.
+//
 
 import Foundation
 
