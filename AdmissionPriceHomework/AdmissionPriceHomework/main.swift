@@ -10,7 +10,7 @@ import Foundation
 
 
 // This variable is going to present the total cost for admission entering the zoo
-var totalCost = 0
+var totalCost : Double = 0
 
 
 // while the user entering any number except 0 the loop will continue.
@@ -55,6 +55,7 @@ while true {
         }
 }
 
+// this line will format the total cost to 2 decimals after the .
+let doubleStr = String(format: "%.2f", totalCost)
 //Print the total cost.
-print("The total cost: \(Double(totalCost))")
-
+print(doubleStr)
