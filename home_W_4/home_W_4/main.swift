@@ -19,10 +19,10 @@ while true {
         switch ageInput {
         case 1...2:
             ()
-        case: 3...12:
+        case 3...12:
             Ticket += 14
             
-        case: 65...:
+        case 65...:
             Ticket += 18
             
         default:
@@ -30,6 +30,6 @@ while true {
         }
         
     }
-    print("the total cost is: \(Ticket)")
     
 }
+print("the total cost is: \(Ticket)")
