@@ -11,8 +11,6 @@ print("Enter a visitor age (0 to exit): ", terminator: "")
 var age = Utils.readInt()
 
 var price: Double = 0
-//var priceTwoDecimalZeros: String = String(format: "%.2f", price)
-// unfortunately it won't work with me :( i will ask tomorrow enshalla
 
 
 repeat {
@@ -22,7 +20,7 @@ repeat {
         print("Enter a visitor age (0 to exit): ", terminator: "")
         age = Utils.readInt()
     case 3...12:
-         price += 14
+        price += 14
         print("Enter a visitor age (0 to exit): ", terminator: "")
         age = Utils.readInt()
     case 13...64:
@@ -36,7 +34,14 @@ repeat {
     }
 } while age != 0
 
-print("The total cost: ", price)
+//var x = round(price*1000)/1000
+
+//price.numberStyle = .decimal
+//price.maximumFractionDigits = 2
+
+let priceTwoDecimalZeros: String = String(format: "%.2f", price)
+
+print("The total cost: ", priceTwoDecimalZeros)
 
 
 
