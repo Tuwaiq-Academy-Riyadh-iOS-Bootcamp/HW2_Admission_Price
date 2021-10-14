@@ -2,33 +2,38 @@
 
 
 import Foundation
+
+
+
+import Foundation
 print("Enter a visitor age : ", terminator: "")
 var x = Utils.readInt()
-var totalcoast: Double = 78.00
 
-    if totalcoast != 78.00 {
+var totalcoast: Double = 0
 
+while x != 0  {
+
+  if x >= 1 && x <= 2 {
+  totalcoast += 0
     }
-    for (x) in 1...5 {
-          var = [String]() , = Utils.readInt()
-
-        if x <= 2 {
-            
-        }
-        if x <= 12 {
+    
+    if x >= 3 && x <= 12 {
+        totalcoast += 14
+      }
+    if x >= 65  {
+    totalcoast += 18
+      }
+      
+    else {
+totalcoast += 23
     }
-        if x >= 65 {
-            
-        }
-        if <= 65 {
-            
-            
-        }
-
-while totalcoast != 0  {
-
-    print("Enter a visitor age")
+    print("Enter a visitor age : ", terminator: "")
+     x = Utils.readInt()
+    if x == 0 {
+        break
+    }
 }
-    }
+print("totalcoast", totalcoast)
+
 
 
